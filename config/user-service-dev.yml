@@ -21,7 +21,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka,http://eureka2:2002/eureka
-
+  instance:
+    prefer-ip-address: true
 management:
   endpoints:
     web:
